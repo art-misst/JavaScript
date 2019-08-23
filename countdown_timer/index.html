@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Countdown_timer</title>
+</head>
+<body>
+    <!-- Контайнер для распределения таймера по центру страницы -->
+    <div class="container">
+        <!-- Сам таймер -->
+        <div id="timer">
+            <!-- Обертка для стилей -->
+            <div class="wraper">
+                <!-- Здесь отображаюся дни -->
+                <div class='days'></div>
+                <span class="timerText">Дней</span>
+            </div>
+            
+            <div class="wraper">
+                <!-- Здесь отображаюся часы -->
+                <div class='hours'></div>
+                <span class="timerText">Часов</span>
+            </div>
+            
+            <div class="wraper">   
+                <!-- Здесь отображаюся минуты -->
+                <div class='minutes'></div>
+                <span class="timerText">Минут</span>
+            </div>
+            
+            <div class="wraper">    
+                <!-- Здесь отображаюся секунды -->
+                <div class='seconds'></div>
+                <span class="timerText">Секунд</span>
+            </div>
+
+        </div>
+    </div>
+
+    <h2>Время окончания</h2>
+    <!-- Время окончания, задается в js -->
+    <h2 id="deadlineBox"></h2>  
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
